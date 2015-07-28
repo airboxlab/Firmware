@@ -1,0 +1,9 @@
+Test Firmware: this firmware is the one used during production to test units.
+
+Status: Done
+
+
+Soft Reset/bootloader:
+
+To run the bootloader, you can open the serial port at 1200bauds, then close it. This will shutdown the MCU then trigger a reset + bootloader 2s later.
+

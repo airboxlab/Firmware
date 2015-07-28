@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "PatchProgrammer_firmware", "PatchProgrammer_firmware\PatchProgrammer_firmware.cproj", "{CF39C790-7417-45A5-A33A-1FB6204B686B}"
+EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "CC3000", "CC3000\CC3000.cppproj", "{032B4D93-2452-40B5-806E-F305602AC497}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Hardware_lib", "Hardware_lib\Hardware_lib.cproj", "{80521F70-88DC-4030-BCF5-5FB1CEC1028C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF39C790-7417-45A5-A33A-1FB6204B686B}.Debug|AVR.ActiveCfg = Debug|AVR
+		{CF39C790-7417-45A5-A33A-1FB6204B686B}.Debug|AVR.Build.0 = Debug|AVR
+		{CF39C790-7417-45A5-A33A-1FB6204B686B}.Release|AVR.ActiveCfg = Release|AVR
+		{CF39C790-7417-45A5-A33A-1FB6204B686B}.Release|AVR.Build.0 = Release|AVR
+		{032B4D93-2452-40B5-806E-F305602AC497}.Debug|AVR.ActiveCfg = Debug|AVR
+		{032B4D93-2452-40B5-806E-F305602AC497}.Debug|AVR.Build.0 = Debug|AVR
+		{032B4D93-2452-40B5-806E-F305602AC497}.Release|AVR.ActiveCfg = Release|AVR
+		{032B4D93-2452-40B5-806E-F305602AC497}.Release|AVR.Build.0 = Release|AVR
+		{80521F70-88DC-4030-BCF5-5FB1CEC1028C}.Debug|AVR.ActiveCfg = Debug|AVR
+		{80521F70-88DC-4030-BCF5-5FB1CEC1028C}.Debug|AVR.Build.0 = Debug|AVR
+		{80521F70-88DC-4030-BCF5-5FB1CEC1028C}.Release|AVR.ActiveCfg = Release|AVR
+		{80521F70-88DC-4030-BCF5-5FB1CEC1028C}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

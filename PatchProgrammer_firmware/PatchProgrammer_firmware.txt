@@ -1,0 +1,10 @@
+Patch Programmer: this firmware patches the CC3000 with the latest service pack (v1.19 at least is required).
+
+Status: Barely started
+
+
+
+Soft Reset/bootloader:
+
+To run the bootloader, you can open the serial port at 1200bauds, then close it. This will shutdown the MCU then trigger a reset + bootloader 2s later.
+

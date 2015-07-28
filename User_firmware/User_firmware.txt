@@ -1,0 +1,25 @@
+User firmware: this firmware is the one used in the production units of AirBoxLax v2.
+
+Status: WIP
+
+
+Soft Reset/bootloader:
+
+To run the bootloader, you can open the serial port at 1200bauds, then close it. This will shutdown the MCU then trigger a reset + bootloader 2s later.
+
+
+
+=== LED bahaviour ===
+
+Starting : dimm bleu/green
+No AP configured : solid blue
+Config mode : glowing blue
+
+Normal operation:
+ - air quality is OK : solid green
+ - air quality is not great : solid orange
+ - air quality is bad : solid red
+For each of these 3 colors, it will glow if there is a problem with the Wi-Fi connection
+
+
+
